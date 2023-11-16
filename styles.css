@@ -2,14 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
    
 }
+.container , header {
+    border-color: #5C8374;
+    border-width: 0.5px;
+    border-top: none;
+    border-style: solid;
+    background-color: #14303f;
+}
+/*-------------- Navbar CSS --------------*/
 
-body {
+
+#navbar-container {
     min-height: 100vh;
-    background: #2C3639 no-repeat;
+    background-image: url(images/taylor-vick-M5tzZtFCOfs-unsplash.jpg) ;
+    background-repeat: repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-position: center;
+    
 }
 header {
     position: fixed;
@@ -17,7 +30,7 @@ header {
     left: 0;
     width: 100%;
     padding: 10px 100px;
-    background-color: rebeccapurple;
+    background-color:#001524; /* #14303f*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,4 +111,9 @@ header {
         gap:30px
     }
    
+}
+/*-------------- About Me Section CSS --------------*/
+
+#about-container {
+    min-height: 100vh;
 }

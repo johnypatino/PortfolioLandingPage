@@ -11,8 +11,9 @@
     border-top: none;
     border-style: solid;
     background-color: #14303f;
-    
-    
+}
+.container {
+    min-height: 100vh;
 }
 /*-------------- Home CSS --------------*/
 #home-container {
@@ -198,4 +199,30 @@ header {
         margin-left: 10px;
     }
 }
+/*-------------- Personal Projects Section CSS --------------*/
 
+#projects-container {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    
+}
+
+.projects {
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.projectdiv {
+    border: 1px solid white;
+    height: 500px;
+    width: 300px;
+}
+#projects-text {
+    margin-top: 20px;
+    font-size: 50px;
+}

@@ -11,19 +11,27 @@
     border-top: none;
     border-style: solid;
     background-color: #14303f;
-}
-/*-------------- Navbar CSS --------------*/
-
-
-#navbar-container {
-    min-height: 100vh;
-    background-image: url(images/taylor-vick-M5tzZtFCOfs-unsplash.jpg) ;
-    background-repeat: repeat;
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center;
+    
     
 }
+/*-------------- Home CSS --------------*/
+#home-container {
+    min-height: 100vh;
+    background-image: url(images/taylor-vick-M5tzZtFCOfs-unsplash.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    font-size: clamp(10px, 2.5vw, 30px);
+    
+    justify-content: center;
+}
+#home-text{
+    
+
+}
+/*-------------- Navbar CSS --------------*/
 header {
     position: fixed;
     top: 0;
@@ -35,6 +43,10 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+#header-text {
+    align-items: center;
+
 }
 .logo {
     font-size: 32px;

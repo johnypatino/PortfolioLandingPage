@@ -143,7 +143,7 @@ header {
     display: flex;
     flex-direction: row;
 }
-.about-body div{
+#about-left , #about-right{
     height: 500px;
     
     color: #fff;
@@ -153,6 +153,22 @@ header {
     flex: 2;
     margin-right: 5%;
     background-color: #001524 ;
+    min-width: 250px;
+}
+.about-right-list ul {
+    margin: 15px;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    flex-direction: row;
+}
+#about-right-header {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 #about-left {
     
@@ -163,5 +179,23 @@ header {
 #about-left li {
     margin-right: 10px;
     margin-top: 25px;
+}
+#about-right img {
+    height: 30px;
+}
+.list {
+    gap: 10px;
+    display: flex;
+}
+@media(max-width: 820px) {
+    .list-text {
+        font-size: 0;
+    }
+    #about-right img {
+        height: 50px;
+    }
+    .list {
+        margin-left: 10px;
+    }
 }
 

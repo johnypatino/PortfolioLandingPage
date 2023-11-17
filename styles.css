@@ -219,10 +219,38 @@ header {
 }
 .projectdiv {
     border: 1px solid white;
+    background-color: white;
     height: 500px;
     width: 300px;
 }
 #projects-text {
-    margin-top: 20px;
+    margin-top: 50px;
+    color: #5C8374;
     font-size: 50px;
+}
+.project-img  img{
+    width: 290px;
+    height: 270px;
+}
+
+.project-title {
+    font-size: 25px;
+    color: black;
+}
+.projectcode {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 150px;
+    gap: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 6px;
+    border-width: 0px;
+}
+.projectcode img {
+    width: 20px;
 }

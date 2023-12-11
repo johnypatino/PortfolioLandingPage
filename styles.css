@@ -218,6 +218,7 @@ header {
     gap: 50px;
 }
 .projectdiv {
+    
     border: 1px solid white;
     background-color: white;
     height: 500px;
@@ -234,6 +235,7 @@ header {
 }
 
 .project-title {
+    margin-top: 10px;
     font-size: 25px;
     color: black;
 }

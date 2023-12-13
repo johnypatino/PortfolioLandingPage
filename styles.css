@@ -21,6 +21,7 @@
     background-image: url(images/taylor-vick-M5tzZtFCOfs-unsplash.jpg) ;
     background-size: cover;
     background-position: center;
+    opacity: 1;
     display: flex;
     color: #fff;
     align-items: center;
@@ -29,6 +30,9 @@
     justify-content: center;
 }
 #home-text{
+    padding: 5%;
+    background-color: rgba(37, 36, 29, 0.3); 
+    
     text-align: center;
 
 }

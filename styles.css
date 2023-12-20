@@ -260,3 +260,42 @@ header {
 .projectcode img {
     width: 20px;
 }
+
+.contactMe {
+    text-align: center;
+    background-color:#14303f;
+    min-height: 80vh;
+}
+.contact-title {
+    font-size: clamp(50px, 2.5vw, 100px);
+    color: #5C8374;
+}
+form {
+    margin: 3px 20% 15px 20% ;
+    padding: 20px 0 20px 0;
+}
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border:none;
+    background-color: #fff;
+}
+.contact-submit {
+    border-radius: 8px;
+    height: 30px;
+    width: 120px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #001524;
+    color:#fff;
+    padding:10px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color:#fff;
+}

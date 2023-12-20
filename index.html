@@ -74,7 +74,7 @@
                 <div class="project-title">Spotify API Search</div>
                 <div class="project-img"><img src="images/Spotify-searchimg.png" alt="Spotify Search app screenshot"></div>
                 <div class="project-desc">Web application that lists the albums of an artist using Spotify Web API. Developed using the Bootstrap and React libraries.</div>
-                <div class="project-button"><button class="projectcode">
+                <div class="project-button"><button class="projectcode" onclick="location.href='https:/\/github.com/johnypatino/SpotifySearch'" type="button">
                     <img src="images/github.png" alt="Github logo">
                     <div>Source Code</div>
                 </button></div>
@@ -85,7 +85,7 @@
                 <div class="project-desc">
                     Simple Web Notes application with login system and user login authentication. Developed using Python and Flask.
                 </div>
-                <div class="project-button"><button class="projectcode">
+                <div class="project-button"><button class="projectcode" onclick="location.href='https:/\/github.com/johnypatino/pythonWebsite'" type="button">
                     <img src="images/github.png" alt="Github logo">
                     <div>Source Code</div>
                 </button></div>
@@ -95,20 +95,49 @@
                 <div class="project-img"><img src="images/system-design.png" alt="Prototype image"></div>
                 <div class="project-desc">Software development of a restaurant application to coordinate work activites. Prototypes created in Figma.</div>
                 <div class="project-button"><button class="projectcode">
+                    
                     <img src="images/github.png" alt="Github logo">
                     <div>Source Code</div>
+                    
                 </div>
             </div>
             <!-- Project Template
-          <div class="projectdiv">
+            <div class="projectdiv">
                 <div class="project-title"></div>
                 <div class="project-img"></div>
                 <div class="project-desc"></div>
             </div> 
+           -->
         </div>  
-    </div>  -->
+    </div>
 
     <!--Contact -->
+    <div class="contactMe">
+        <div class="contact-title"> Contact Me</div>
+        <div class="contact-containers">
+            <div class="contact-form">
+                <form onsubmit="emailSend(); reset(); return false;">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required id="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required id="email">
+                    </div>
+                    <div class="form-group">
+                       <textarea name="message" id="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+                    </div>
+                    <button class="contact-submit" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://github.com/johnypatino" target="_blank">
+        Jonathan Patino 
+        <img src="images/github.png" height="15px">
+        </a>
+    </div>
 </body>
+<script src="https://smtpjs.com/v3/smtp.js"></script> <!--Script for email send-->
 <script src="script.js"></script>
 </html>
